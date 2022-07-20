@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <p class="lead">Upload Brain MR image along with annotated ground truth</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+<div>
+    <form action="/test" enctype="multipart/form-data" method="POST">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4"></legend>
+            <div class="form-group">
+                {{form.testImage.label(class="form-control-label") }}
+                {{form.testImage(class="form-control form-control-lg") }}
+            </div>
+            <div class="form-group">
+                {{form.testMask.label(class="form-control-label") }}
+                {{form.testMask(class="form-control form-control-lg") }}
+            </div>
+
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info")}}
+        </div>
+
+    </form>
+</div>
+
+
+
+
+{% if context %}
+    {% if context.filename %}
+        <img src="{{ context.filename }}" class="rounded mx-auto d-block">  
+    {% endif %}
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

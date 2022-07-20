@@ -1,0 +1,271 @@
+<<INTRO>>
+1
+Kayode, A., Amina, S. and Akram, M. (2020) Brain Tumor - an Overview of the Clinical Manifestations and Treatment. Global Journal of Cancer Therapy [online]. [Accessed 25 September 2021].
+
+12
+Fayed, L. (2022) Neoplasm Types and Factors That Cause Them. Very Well Health [online]. [Accessed 28 September 2021].
+
+2
+Anon, (2022) Brain Tumor: Statistics. Asco [online] 
+[Accessed 28 September 2021].
+
+13
+Lapointe, S., Perry, A. and Butowski, N.A. (2018) Primary Brain Tumours in Adults. Lancet [online]. [Accessed 02 October 2021].
+
+14
+Kumar, V. (2017) Robbins Basic Pathology. 10th ed. : Elsevier.
+
+15
+Alteri, R. and Kalidas, M. (2010) Advanced and Metastatic Cancer. American Cancer Society [online]. [Accessed 05 October 2021].
+
+16
+Anon, (2020) Metastatic Cancer: When Cancer Spreads. National Cancer Institute [online]. [Accessed 05 October 2021].
+
+17
+Wang, R., Zhu, Y., Liu, X., Liao, X., He, J. and Niu, L. (2019) The Clinicopathological Features and Survival Outcomes of Patients with Different Metastatic Sites in Stage Iv Breast Cancer. Bmc [online]. [Accessed 05 October 2021].
+
+18
+Müller, S., Köhler, F., Hendricks, A., Kastner, C., Börner, K., Diers, J., Lock, J.F., Petritsch, B., Germer, C.T. and Wiegering, A. (2021) Brain Metastases From Colorectal Cancer: A Systematic Review of the Literature and Meta-analysis to Establish a Guideline For Daily Treatment. Mdpi [online]. [Accessed 05 October 2021].
+
+20
+Llaguno, S.R.A. and Parada, L.F. (2016) Cell of Origin of Glioma: Biological and Clinical Implications. British Journal of Cancer [online]. 155, pp. 1445-1450. [Accessed 06 October 2021].
+
+3
+Rasmussen, B.K., Hansen, S., Laursen, R.J., Kosteljanetz, M., Schultz, H., Nørgård, B.M., Guldberg, R. and Gradel, K.O. (2017) Epidemiology of Glioma: Clinical Characteristics, Symptoms, and Predictors of Glioma Patients Grade I–iv in the the Danish Neuro-oncology Registry. J Neurooncol [online]. 135, pp. 571-579. [Accessed 05 October 2021].
+
+4
+Menze, B., Jakab, A., Bauer, S., Kalpathy-cramer, J., Farahani, K., Kirby, J., Burren, Y., Porz, N., Slotboom, J., Wiest, R., Lanczi, L., Gerstner, E., Weber, M.A., Arbel, T., Avants, B.B., Ayache, N., Buendia, P., Collins, D.L., Cordier, N., Corso, J.J., Criminisi, A., Das, T., Delingette, H., Demiralp, C., Durst, C.R., Dojat, M., Doyle, S., Festa, J., Forbes, F., Geremia, E., Glocker, B., Golland, P., Guo, X., Hamamci, A., Iftekharuddin, K., Jena, R., John, N.M., Konukoglu, E., Lashkari, D., Mariz, J.A., Meier, R., Pereira, S., Precup, D., Price, S.J., Raviv, T.R., Reza, S.M.S., Ryan, M., Sarikaya, D., Schwartz, L., Shim, H.C., Shotton, J., Silva, C.A., Sousa, N., Subbanna, N.K., Szekely, G., Taylor, T.J., Thomas, O., Tustison, N.J., Unal, G., Vasseur, F., Wintermark, M., Ye, D.H., Zhao, L., Zhao, B., Zikic, D., Prastawa, M., Reyes, M. and Leemput, K.V. (2015) The Multimodal Brain Tumor Image Segmentation Benchmark (Brats). Ieee Transactions on Medical Imaging [online]. 34 (10) [Accessed 10 October 2021].
+
+5
+Bauer, S., Wiest, R., Nolte, L.P. and Reyes, M. (2013) A Survey of Mri-based Medical Image Analysis For Brain Tumor Studies. Physics in Medicine and Biology [online]. 25, pp. 97-129. [Accessed 16 October 2021].
+
+6
+Bousselham A., Bouattane, O., Youssfi, M., Raihani1, A (2019) Towards Reinforced Brain Tumor Segmentation on Mri Images Based on Temperature Changes on Pathologic Area. International Journal of Biomedical Imaging [online]. 10 [Accessed 16 October 2021].
+
+21
+Preston, D.C. (2016) Magnetic Resonance Imaging (Mri) of the Brain and Spine: Basics. Case Western Reserve [online]. [Accessed 21 October 2021].
+
+<<LIT REVIEW>>
+6
+Bousselham A., Bouattane, O., Youssfi, M., Raihani1, A (2019) Towards Reinforced Brain Tumor Segmentation on Mri Images Based on Temperature Changes on Pathologic Area. International Journal of Biomedical Imaging [online]. 10 [Accessed 16 October 2021].
+
+5
+Bauer, S., Wiest, R., Nolte, L.P. and Reyes, M. (2013) A Survey of Mri-based Medical Image Analysis For Brain Tumor Studies. Physics in Medicine and Biology [online]. 25, pp. 97-129. [Accessed 16 October 2021].
+
+24
+Gordillo, N., Montseny, E. and Sobrevilla, P. (2013) State of the Art Survey on Mri Brain Tumor Segmentation. Magnetic Resonance Imaging [online]. 31 (8), pp. 1426-1438. [Accessed 28 October 2021].
+
+23
+Mukesh, M., Benson, R., Jena, R., Hoole, A., Roques, T., Whitfield, G.A., Gemmill, J. and Jefferies, S. () Interobserver Variation in Clinical Target Volume and Organs at Risk Segmentation in Post-parotidectomy Radiotherapy: Can Segmentation Protocols Help?. The British Journal of Radiology [online]. 85 [Accessed 24 November 2021].
+
+27
+Prastawa, M., Bullitt, E., Moon, N., Leemput, K.V. and Gerig, G. (2003) Automatic Brain Tumor Segmentation by Subject Specific Modification of Atlas Priors. Academic Radiology` [online]. 10 (12), pp. 1341-1348. [Accessed 30 October 2021].
+
+25
+Gordillo, N., Montseny, E. and Sobrevilla, P. (2013) State of the Art Survey on Mri Brain Tumor Segmentation. Magnetic Resonance Imaging [online]. 31 (8), p. 14261438. [Accessed 05 November 2021].
+
+26
+Rogowska, J. (2009) Handbook of Medical Image Processing and Analysis. 2nd ed. : Academic Press.
+
+
+28
+Kaus, M.R., Warfield, S.K., Nabavi, S., Black, P.M., Jolesz Fa, and Kikinis, R. (2001) Automated Segmentation of Mr Images of Brain Tumors. Radiology [online]. 218 (2) [Accessed 12 November 2021].
+
+29
+Hsu, J. (2016) Google Engineers Balanced Speed and Accuracy to Deploy Deep Learning in Chinese-to-english Translations. Ieee Spectrum [online]. [Accessed 12 November 2021].
+
+30
+Shankar, V., Roelofs, R., Mania, H., Fang, A., Recht, B. and Schmidt, L. (2020) Evaluating Machine Accuracy on Imagenet. Icml'20: Proceedings of the 37th International Conference on Machine Learning [online]. 801, pp. 8634-8644. [Accessed 15 November 2021].
+
+31
+Anon. (2021) History Of Data Science. ImageNet: A Pioneering Vision for Computers. Available from https://www.historyofdatascience.com/imagenet-a-pioneering-vision-for-computers/#:~:text=Since%20being%20launched%2C%20ImageNet%20has,tasks%20associated%20with%20computer%20vision [Accessed 15 November 2021]
+
+32
+Kayid, A. and Khaled, Y. (2018) Performance of Cpus/gpus For Deep Learning Workloads. Artificial General Intelligence [online]. [Accessed 25 November 2021].
+
+33
+Anon. (2016) A Brief History of the PACS: Past, Present, & Future. RamSoft. Available from https://www.ramsoft.com/brief-history-pacs/#:~:text=Some%20place%20its%20inception%20in,at%20the%20University%20of%20Kansas [Accessed 25 November 2021]
+
+35
+Kaissis, G.A., Makowski, M.R., Rückert , D. and Braren , R.F. (2020) Secure, Privacy-preserving and Federated Machine Learning in Medical Imaging. Nature Machine Intelligence [online]. 2, pp. 305-311. [Accessed 29 November 2021].
+
+36
+Article 9 GDPR [online] (2018). GDPR-Info. Available from https://gdpr-info.eu/art-9-gdpr/
+
+37
+Kaschinske, T. (2014) Much Ado About Unstructured Data? Bridge Head Software [blog] 18 July. Available from https://www.bridgeheadsoftware.com/2014/07/unstructured_data/ [Accessed 2 December 2021]
+
+38
+Freeman, T. (2021) Diagnostic AI algorithm focuses on privacy protection. Diagnostic Imaging [blog] 02 June/ Available from https://physicsworld.com/a/diagnostic-ai-algorithm-focuses-on-privacy-protection/. [Accessed 02 December 2021] 
+
+4
+Menze, B., Jakab, A., Bauer, S., Kalpathy-cramer, J., Farahani, K., Kirby, J., Burren, Y., Porz, N., Slotboom, J., Wiest, R., Lanczi, L., Gerstner, E., Weber, M.A., Arbel, T., Avants, B.B., Ayache, N., Buendia, P., Collins, D.L., Cordier, N., Corso, J.J., Criminisi, A., Das, T., Delingette, H., Demiralp, C., Durst, C.R., Dojat, M., Doyle, S., Festa, J., Forbes, F., Geremia, E., Glocker, B., Golland, P., Guo, X., Hamamci, A., Iftekharuddin, K., Jena, R., John, N.M., Konukoglu, E., Lashkari, D., Mariz, J.A., Meier, R., Pereira, S., Precup, D., Price, S.J., Raviv, T.R., Reza, S.M.S., Ryan, M., Sarikaya, D., Schwartz, L., Shim, H.C., Shotton, J., Silva, C.A., Sousa, N., Subbanna, N.K., Szekely, G., Taylor, T.J., Thomas, O., Tustison, N.J., Unal, G., Vasseur, F., Wintermark, M., Ye, D.H., Zhao, L., Zhao, B., Zikic, D., Prastawa, M., Reyes, M. and Leemput, K.V. (2015) The Multimodal Brain Tumor Image Segmentation Benchmark (Brats). Ieee Transactions on Medical Imaging [online]. 34 (10) [Accessed 10 October 2021].
+
+
+51
+Meier, R., Bauer, S., Slotboom, J. and Wiest, R. (2013) A Hybrid Model For Multimodal Brain Tumor Segmentation. Institute For Surgical Technologies and Biomechanics [online]. [Accessed 05 December 2021].
+
+52
+Hussaina, S., Anwara, S.M. and Majidb, M. (2017) Segmentation of Glioma Tumors in Brain Using Deep Convolutional Neural Network. Neurocomputing [online]. [Accessed 05 December 2021].
+
+53
+Meier, R., Knecht, U., Loosli, T., Bauer, S., Slotboom, J., Wiest, R. and Reyes, M. (2016) Clinical Evaluation of a Fully-automatic Segmentation Method For Longitudinal Brain Tumor Volumetry. Scientific Reports [online]. 6 [Accessed 20 December 2021].
+
+54
+Pereira, S., Pinto, A., Alves, V. and Silva C.A. (2016) Brain Tumor Segmentation Using Convolutional Neural Networks in Mri Images. Ieee Transactions on Medical Imaging [online]. 35 (5), pp. 1240-1251. [Accessed 15 December 2021].
+
+40
+Myronenko, A. (2019) 3d Mri Brain Tumor Segmentation Using Autoencoder Regularization. International Miccai Brainlesion Workshop [online]., pp. 311-320. [Accessed 20 December 2021].
+
+41
+Jiang, Z., Ding, C., Liu, M. and Tao, D. (2020) Two-stage Cascaded U-net: 1st Place Solution to Brats Challenge 2019 Segmentation Task. International Miccai Brainlesion Workshop [online]., pp. 231-241. [Accessed 18 December 2021].
+
+42
+Braunstein, V. (2021) Nvidia Devlopers. NVIDIA Data Scientists Take Top Spots in MICCAI 2021 Brain Tumor Segmentation Challenge 30 September Available from: https://developer.nvidia.com/blog/nvidia-data-scientists-take-top-spots-in-miccai-2021-brain-tumor-segmentation-challenge/#:~:text=The%20starting%20point%20for%20designing,well%20as%20the%20training%20schedule [Accessed 05 January 2021]
+
+47
+Ronneberger, O., Fischer, P. and Brox, T. (2015) U-net: Convolutional Networks For Biomedical Image Segmentation. International Conference on Medical Image Computing and Computer-assisted Intervention [online]., pp. 234-241. [Accessed 04 January 2021].
+
+43
+Nowling, R.J., Bukowy, J., McGarry, S.D., Nencka, A.S., Blasko, O., Urbain, J., Lowman, A., Barrington, A., Banerjee, A., Iczkowski, K.A. and Laviolette, P.S. (2015) Classification Before Segmentation: Improved U-net Prostate Segmentation. Ieee Embs International Conference on Biomedical & Health Informatics [online]. [Accessed 10 January 2021].
+
+44
+Huang, C., Han, H., Yao, Q., Zhu, S. and Zhou, S.K. (2019) 3d U 2 -Net: A 3d Universal U-net For Multi-domain Medical Image Segmentation?. Arxiv:1909.06012 [online].
+
+45
+Piantadosi, G., Marrone, S., Galli, A., Sansone, M. and Sansone, C. (2019) Dce-mri Breast Lesions Segmentation with a 3tp U-net Deep Convolutional Neural Network. 2019 ed. Ieee 32nd International Symposium on Computer-based Medical Systems (Cbms) 05-07 June 2019. [Accessed 18 Januar 2021].
+
+46
+Chmielewski, L.J., Kozera, R., Orłowski, A., Wojciechowski, K., Bruckstein, A.M. and Petkov, N. (2018) U-catchcc: An Accurate Hcc Detector in Hepatic Dce-mri Sequences Based on an U-net Framework. ed. International Conference on Computer Vision and Graphics 2018 17-19 September 2018., p. 319–328. [Accessed 19 January 2019].
+
+49
+Zijdenbos, A.P., Dawant, B.M., Margolin, R.A. and Palmer, A.C. (1994) Morphometric Analysis of White Matter Lesions in Mr Images: Method and Validation. Ieee Transactions on Medical Imaging [online]. 13 (4), pp. 716-724. [Accessed 28 January 2021].
+
+48
+Zou, K.H., Warfield, S.K., Bharatha, A., Tempany, C.M.C., Kaus, M.R., Haker, S.J., Wells, W.M., Jolesz, F.A. and Kikinis, R. (2004) Statistical Validation of Image Segmentation Quality Based on a Spatial Overlap Index. Acad Radiol [online]. 11 (2), pp. 178-189. [Accessed 25 January 2021].
+
+56
+Yeghiazaryan, V. and Voiculescu, I. (2015) An Overview of Current Evaluation Methods Used in Medical Image Segmentation. Department of Computer Science [online]. [Accessed 13 January 2021].
+
+57
+Linguraru, M.G., Yao, J., Gautam, R., Peterson, J., Li, Z., Linehan, W.M. and Summers, R.M. (2009) Renal Tumor Quantification and Classification in Contrastenhanced Abdominal Ct. Pattern Recognit [online]. 42 (6), pp. 1149-1161. [Accessed 17 January 2021].
+
+58
+Swift, A., Heale, R. and Twycross, A. (2019) What Are Sensitivity and Specificity?. Bmj Journals [online]. 23, pp. 2-4. [Accessed 29 January 2021].
+
+59
+Gogtay, N.J. and Thatte, U.M. (2017) Statistical Evaluation of Diagnostic Tests (Part 1): Sensitivity, Specificity, Positive and Negative Predictive Values. Journal of the Association of Physicians of India [online]. 65, pp. 80-84. [Accessed 28 January 2021].
+
+61
+Sreeraj, R. and Raju, G. (2016) Increasing Sensitivity, Specificity and Ppv For Liver Tumor Segmentation and Classification Using Enhanced Glcm. Biomed Pharmacol J [online]. 9 (3) [Accessed 29 January 2021].
+
+
+<<PROJECT SCOPE AND AIMS>>
+60
+Ahirwar, A. (2015) Study of Techniques Used For Medical Image Segmentation and Computation of Statistical Test For Region Classification of Brain Mri. I.j. Information Technology and Computer Science, [online]. 5, pp. 44-53. [Accessed 29 Janaury 2021].
+
+64
+Baid, U., Ghodasara, S., Mohan, S., Bilello, M., Calabrese, E., Colak, E., Farahani, K., Kalpathy-cramer, J., Kitamura, F.C., Pati, S., Prevedello, L.M., Rudie, J.D., Sako, C., Shinohara, R.T., Bergquist, B., Chai, R., Eddy, J., Elliott, J., Reade, W., Schaffter, T., Yu, T., Zheng, J., Moawad, A.W., Coelho, L.O., McDonnell, O., Miller, E., Mor´on34, F.E., Oswood35, M.C., Shih, R.Y., Siakallis, L., Bronstein, Y., Mason, J.R., Miller, A.F., Choudhary, Y., Agarwal`, A., Besada, C.H., Derakhshan, J.J., Diogo, M.C., Do-da, D.D., Farage, M., Go, J.L., Hadi, M., Hill, V.B., Iv, M., Joyner, D., Lincoln, C., Lotan, E., Miyakoshi, A., Sanchez-monta˜n, M., Nath, J., Nguyen, X.V., Nicolas-jilwan, M., Jimenez, J.O., Ozturk, O., Petrovic, B.D., Shah, C., Shah, L.M., Sharma, M., Simsek, O., Singh, A.K., Soman, S., Statsevych, V., Weinberg, B.D., Young, R.J., Ikuta, I., Agarwal, A.K., Cambron, S.C., Silbergleit, R., Dusoi, A., Postma, A.A., Letourneau-guillon, L., Guzm´an P´erez-carrillo, G.J., Saha, A., Soni, N., Zaharchuk, G., Zohrabian, V.M., Chen, Y., Cekic, M.M., Rahman, A., Small, J.E., Sethi, V., Davatzikos, C., Mongan, J., Hess, C., Cha, A., Villanueva-meye, J., Freymann, J.B., Freymann, J.S., Wiestler, B., Crivellaro, P., Colen, R.R., Kotrotsou`, A., Marcus, D., Milchenko, M., Nazeri, A., Fathallah-shaykh, H., Wiest, R., Jakab, A., Weber, M.A., Mahajan, A., Menze, B., Flanders, A.E. and Bakas, S. (2021) The Rsna-asnr-miccai Brats 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification. Arxiv [online]. [Accessed 01 Febuary 2021].
+
+Cohn, M. (2004) User Stories Applied: For Agile Software Development. : Addison-wesley Professional.
+
+<<REQUIREMENTS>>
+65
+Sommerville, I. (2016) Software Engineering. 10th ed. : Pearson.
+
+
+<<DESIN>>
+67
+Eche, T., Schwartz, L.H., Mokrane, F.Z. and Dercle, L. (2021) Toward Generalizability in the Deployment of Artificial Intelligence in Radiology: Role of Computation Stress Testing to Overcome Underspecification. Radiol Artif Intell [online]. 3 (6) [Accessed 03 March 2021].
+
+69
+Deng, J., Dong, W., Socher, R., Li, L.J. and Fei, L.F. (2009) Imagenet: A Large-scale Hierarchical Image Database. ed. 2009 Ieee Conference on Computer Vision and Pattern Recognition Miami. FL, USA, 20-25 June IEEE. 
+70
+Anon. (
+
+
+<<IMPLEMENTATION>>
+74
+Bidgood, W.D., Horii, S.C., Prior, F.W. and Van Syckle, D.E. (1997) Understanding and Using Dicom, the Data Interchange Standard For Biomedical Imaging. Journal of the American Medical Informatics Association [online]. 4 (3), pp. 199-212. [Accessed 12 January 2021].
+
+75
+Knipe, H., (2019) NIfTI (file format). Radiopedia [blog] 06 December. Available from https://radiopaedia.org/articles/nifti-file-format?lang=gb [Accessed 12 Feburary 2021.
+
+36
+Article 9 GDPR [online] (2018). GDPR-Info. Available from https://gdpr-info.eu/art-9-gdpr/
+
+64
+/ 
+
+76
+//todo 
+
+77
+/todo
+
+65
+/
+
+78
+Kalavathi, P. and Prasath, V.B.S. (2016) Methods on Skull Stripping of Mri Head Scan Images—a Review. J Digit Imaging [online]. 29 (3), pp. 365-379. [Accessed 12 March 2022].
+
+80
+Davatzikos, C., Rathore, S,, Bakas, S., Pati, S., Bergman, M., Kalarot, R., Sridharan, P., Gastounioti, A., Jahani, N., Cohen, E., Akbari, H., Tunc, B., Doshi, J., Parker, D., Hsieh, M., Sotiras, A., Li, H., Ou, Y., Doot, RK., Bilello, M., Fan, Y., Shinohara, RT., Yushkevich, P., Verma, R., Kontos, D.(2018) Cancer Imaging Phenomics Toolkit: Quantitative Imaging Analytics For Precision Diagnostics and Predictive Modeling of Clinical Outcome. J Med Imaging (Bellingham) [online]. 5 (1) [Accessed 05 March 2021].
+81
+Palomino, J., Wasser, L. Into to Numpy Arrays (2020) Earth Data Science [blog] Available from: https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/numpy-arrays/ [Accessed 04 April 2021].
+
+71
+/
+
+83
+Statis, K. Hoe to Use Generators and yield in Python (No Date) Real Python [blog] Available from: https://realpython.com/introduction-to-python-generators/ [Accessed 09 March 2022].
+
+84
+Yegualp, S. What is TensorFlow? The machine learning library explained. (2022) InfoWorld [blog] 03 June Available from: https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html  [Accessed 09 March 2022]
+
+85
+Heller, M. What is Keras? The deep neural network API explained (2019) InfoWorld [blog] 28 January Available from: https://www.infoworld.com/article/3336192/what-is-keras-the-deep-neural-network-api-explained.html  [Accessed 07 March 2022]
+
+86
+Brownlee, J. A Gentle Introduction to Dropout for Regularizing Deep Neural Networks (2019) Machine Learning Mastery [blog] 09 January. Available from: https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/ [Accessed 13 March 2022]
+
+87
+Brownlee, J. A Gentle Introduction to the Rectified Linear Unit (ReLU) (2018) Machine Learning Mastery [blog] 03 December. Available from: https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/#:~:text=The%20rectified%20linear%20activation%20function,otherwise%2C%20it%20will%20output%20zero  [Accessed 21 March 2022]
+
+88
+
+Brownlee, J. A Gentle Introduction to the Rectified Linear Unit (ReLU) (2019)Machine Learning Mastery  [blog] 11 January. Available from: https://machinelearningmastery.com/how-to-fix-vanishing-gradients-using-the-rectified-linear-activation-function/  [Accessed 17 March 2022]
+
+90
+Chng, Z.M., Google Colab for Machine Learning Projects (2022) Machine Learning Mastery [blog] 28 April. Available from: https://machinelearningmastery.com/google-colab-for-machine-learning-projects/  [Accessed 13 March 2022]
+
+91
+Chng, Z.M.,  Google Colab for Machine Learning Projects (2022) Machine Learning Mastery [blog] 28 April. Available from: https://machinelearningmastery.com/google-colab-for-machine-learning-projects/  [Accessed 13 March 2022]
+
+92
+Tiu, E., Metrics to Evaluate your Semantic Segmentation Model (2019) Towards Data Science [blog] 28 April. Available from: https://towardsdatascience.com/metrics-to-evaluate-your-semantic-segmentation-model-6bcb99639aa2 [Accessed 04 April 2022]
+
+93
+Jadon, S. (2020) A Survey of Loss Functions For Semantic Segmentation. Ieee Conference on Computational Intelligence in Bioinformatics and Computational Biology (Cibcb) [online]., pp. 1-7. [Accessed 02 April 2022].
+
+93
+Padilla, R., Padilla, S.L. and Da Silva, E.A.B. (2020) A Survey on Performance Metrics For Object-detection Algorithms. 2020 International Conference on Systems, Signals and Image Processing [online]. [Accessed 03 April 2022].
+
+95
+Zhou, D., Fang, J., Song, X., Guan, C., Yin, J., Dai, Y., Yang, R., , and , (2019) Iou Loss For 2d/3d Object Detection. 2019 International Conference on 3d Vision (3dv) [online]. [Accessed 25 March 2021].
+
+97
+Kingman, D. and Ba, J. (2015) Adam: A Method For Stochastic Optimization. Iclr [online]. [Accessed 02 March 2022].
+
+98
+Brownlee, J., Gentle Introduction to the Adam Optimization Algorithm for Deep Learning. (2017) Machine Learning Mastery [blog] Available from: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/ [Accessed 13 March 2022]
+
+100
+Mufid, M.R., Basofi, A., Rasyid, H.A., Rochimansyah, I.F. and Rokhim, A. (2019) Design an Mvc Model Using Python For Flask Framework Development. 2019 International Electronics Symposium (Ies) [online]. [Accessed 18 March 2022].
+
+101
+Hoyos, M. What is an ORM and Why You Should Use it (2018) Medium Available from: https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a 24 Decemeber [Accessed 16 March 2022]
+
+102
+Yegulalp, S. Why you should use Docker and containers (2018) InfoWorld [blog] Available from: https://www.infoworld.com/article/3310941/why-you-should-use-docker-and-containers.html#:~:text=Docker%20enables%20faster%20software%20delivery%20cycles&text=Docker%20containers%20make%20it%20easy,strategies%20like%20blue%2Fgreen%20deployments. 24 Decemeber [Accessed 02 April 2022]
+

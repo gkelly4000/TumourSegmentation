@@ -1,0 +1,54 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <p class="lead">Select Brain MR Image for visualising or prediction</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+{% if context %}
+<div class="col-xs-6">
+  <div class="table-responsive">
+    <table class="table table-striped">
+    <thead>
+      <tr>
+          <th>Scan ID</th>
+          <th>Patient ID</th>
+          <th>Scan Time</th>
+          <th>Scan Modality</th>
+          <th>Doctor ID</th>
+      </tr>
+      </thead>    
+      <tbody>
+        <form action="/loadModel" method="POST">
+       {% for scan in context %}  
+
+              <tr>  
+                <td>
+                <div class="radio">             
+                <label><input type="radio" name="choice" value="{{ scan.sID }}"> {{scan.sID}}</label>
+                </div>  
+                </td>
+                  <td>{{scan.patientID}}</td>
+                  <td>{{scan.sDateTime}}</td>
+                  <td>{{scan.sModality}}</td>
+                  <td>{{scan.doctorID}}</td> 
+                 
+              </tr>
+          {% endfor %}
+          <input class="btn btn-default btn-danger" name="delete" type="submit" value="View Selected Image" formaction="/display"/>
+          <input class="btn btn-default btn-primary" name="delete" type="submit" value="Predict Selected Image" formaction="/predict"/>
+          
+          <input type="text" name="filterChoice">  </input>
+          <input class="btn btn-default btn-secondary" name="delete" type="submit" value="Filter by Patient ID" formaction="/list"/>
+
+      </tbody>
+  </table>
+</div>
+</div>
+<input class="btn btn-default btn-primary" name="contact" type="submit" value="Display Contact Details" formaction="/displayScanContactDetails"/>
+
+</form>
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

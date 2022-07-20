@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <h1>Brain Tumour detection application</h1>
+    <p class="lead">Upload brain scan image for diagnosis</p>
+</div>
+{% if context %}
+<div class="col-xs-6">
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+          <th>Doctor ID</th>
+          <th>Doctor Name</th>
+          <th>Telephone</th>
+          <th>Email</th>
+      </tr>
+      </thead>    
+      <tbody>
+        <form method="POST">
+              <tr>  
+                    <td>{{context.doctor.dID}}</td>
+                    <td>{{context.doctor.dName}}</td>
+                    <td>{{context.doctor.dTele}}</td>
+                    <td>{{context.doctor.dEmail}}</td>
+              </tr>
+        </form>
+      </tbody>
+  </table>
+</div>
+</div>
+<br>
+<div class="col-xs-6">
+    <div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+              <th>Patient ID</th>
+              <th>Patient Name</th>
+              <th>Date of Birth</th>
+              <th>Address</th>
+              <th>Postcode</th>
+              <th>City</th>
+              <th>Telephone</th>
+          </tr>
+          </thead>    
+          <tbody>
+            <form method="POST"> 
+                  <tr> 
+                        <td>{{context.patient.pID}}</td>
+                        <td>{{context.patient.pName}}</td>
+                        <td>{{context.patient.pDoB.strftime('%Y-%m-%d')}}</td>
+                        <td>{{context.patient.pAddress}}</td>
+                        <td>{{context.patient.pPostcode}}</td> 
+                        <td>{{context.patient.pCity}}</td> 
+                        <td>{{context.patient.pTelephone}}</td> 
+                     
+                  </tr>
+            </form>
+          </tbody>
+    </table>
+    </div>
+    </div>
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

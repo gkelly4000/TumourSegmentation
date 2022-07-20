@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <p class="lead">Please select test scan to test the model against annotated ground truths</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+{% if context %}
+<div class="col-xs-6">
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+          <th>Scan ID</th>
+          
+      </tr>
+      </thead>    
+      <tbody>
+        <form action="/display" method="POST">
+       {% for scan in context %}  
+
+              <tr>  
+                <td>
+                <div class="radio">             
+                <label><input type="radio" name="tChoice" value="{{ scan.tID }}"> {{scan.tID}}</label>
+                </div>  
+                </td>
+      
+                 
+              </tr>
+          {% endfor %}
+    
+          <input class="btn btn-default btn-primary" name="delete" type="submit" value="Test Model with Selected Image" formaction="/viewTests"/>
+         
+        </form>
+      </tbody>
+  </table>
+</div>
+</div>
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

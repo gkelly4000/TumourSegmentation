@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <h1>Brain Tumour detection application</h1>
+    <p class="lead">Upload brain scan image for diagnosis</p>
+</div>
+<div>
+    <form action="/updatePatient" method="post"enctype="multipart/form-data">
+       
+       
+        <input type="hidden" id="id" name="id" value="{{context.id}}">
+        <br>
+        Patient Name:<input type="text" id="pName" name="pName" value="{{context.name}}">
+        <br>
+        Date of Birth:<input type="text" id="dob" name="dob"value="{{context.dob}}">
+        <br>
+        Patient Address:<input type="text" id="address" name="address"value="{{context.address}}">
+        <br>
+        Patient Postcose:<input type="text" id="postcode" name="postcode" value="{{context.postcode}}">
+        <br>
+        Patient City:<input type="text" id="city" name="city"value="{{context.city}}">
+        <br>
+        Patient Telephone:<input type="text" id="tele" name="tele" value="{{context.telephone}}">
+        <input type="submit" value="Update" class="btn btn-info">
+        
+    </form>
+</div>
+{% endblock %}
+{% block content %}
+{% endblock %}

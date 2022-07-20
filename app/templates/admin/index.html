@@ -1,0 +1,9 @@
+{% extends admin_base_template %}
+
+{% block body %}
+<form action="/" method="GET">
+  <h1 class="lead">Only Admins have full access to this page. If unable to access the functionality please log in as, or contact an administrator</h1>
+  <input class="btn btn-default btn-primary" name="home" type="submit" value="Go Back to Site" />
+  <input class="btn btn-default btn-primary" name="home" type="submit" value="Log in as Administrator" formaction="/login" />
+</form>
+{% endblock %}

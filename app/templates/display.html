@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <h1 class="lead">Displaying Test Results</h1>
+</div> 
+{% if context.buttonType == "prediction" %}
+    <form action="/getRandomPredSlice">
+        <input class="btn btn-default btn-primary" name="getRandomPredSlice" type="submit" value="Get Random Slice" />
+        <input type="text" name="sliceNum">  </input>
+        <input class="btn btn-default btn-secondary" name="sliceNum" type="submit" value="Enter Slice Number (0-127)" formaction="/getPredSlice"/>
+    </form>
+    <br>
+{% endif%} 
+{% if context.buttonType == "displayImages" %}
+    <form>  
+        <input class="btn btn-default btn-primary" name="getRandomSlice" type="submit" value="Get Random Slice" formaction="/getRandomSlice"/>
+        <input type="text" name="sliceNum">  </input>
+        <input class="btn btn-default btn-secondary" name="sliceNum" type="submit" value="Enter Slice Number (0-127)" formaction="/getSlice"/>
+    </form>
+{% endif%}
+{% if context.buttonType == "test" %}
+    <form action="/getRandomTestSlice">
+        <input class="btn btn-default btn-primary" name="getRandomTestSlice" type="submit" value="Get Random Slice" />
+                                              
+        <input type="text" name="sliceNum">  </input>
+        <input class="btn btn-default btn-secondary" name="sliceNum" type="submit" value="Enter Slice Number (0-127)" formaction="/getTestSlice"/>
+    </form>
+{% endif%}     
+<div><img src={{"/static/uploads/figures/fig.png"}} alt="Chart" height="auto" width="100%"></div>
+{% endblock %}
+{% block content %}
+{% endblock %}

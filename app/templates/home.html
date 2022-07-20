@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <h1>Brain Tumour detection application</h1>
+    <p class="lead">Upload brain scan image for diagnosis</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+
+
+
+
+
+
+{% if context %}
+    {% if context.filename %}
+        <img src="{{ context.filename }}" class="rounded mx-auto d-block">  
+    {% endif %}
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

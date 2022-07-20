@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <p class="lead">Select Patient Record</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+{% if context %}
+<div class="col-xs-6">
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+          <th>Patient ID</th>
+          <th>Patient Name</th>
+          <th>Patient Date of Birth</th>
+          <th>Patient Postcode</th>
+          <th>Patient City</th>
+          <th>Patient Telephone</th>
+      </tr>
+      </thead>    
+      <tbody>
+        <form method="POST">
+       {% for patient in context %}  
+
+              <tr>  
+                <td>
+                <div class="radio">             
+                <label><input type="radio" name="patientChoice" value="{{ patient.pID }}"> {{patient.pID}}</label>
+                </div>  
+                </td>
+                  <td>{{patient.pName}}</td>
+                  <td>{{patient.pDoB}}</td>
+                  <td>{{patient.pAddress}}</td>
+                  <td>{{patient.pPostcode}}</td> 
+                  <td>{{patient.pCity}}</td> 
+                  <td>{{patient.pTelephone}}</td> 
+                 
+              </tr>
+          {% endfor %}
+          <input class="btn btn-default btn-danger" name="delete" type="submit" value="Delete Patient Record" formaction="/deletePatient"/>
+          <input class="btn btn-default btn-primary" name="delete" type="submit" value="Edit Patient Record" formaction="/editPatient"/>
+         
+        </form>
+      </tbody>
+</table>
+</div>
+</div>
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}

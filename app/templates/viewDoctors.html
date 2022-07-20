@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center">
+    <p class="lead">Doctor Records</p>
+</div>
+<!-- <form method="post" action="/" enctype="multipart/form-data"> -->
+<!-- <label class="form-label">Upload brain scan image for diagnosis</label> -->
+{% if context %}
+<div class="col-xs-6">
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+          <th>Doctor ID</th>
+          <th>Doctor Name</th>
+          <th>Doctor Telephone</th>
+          <th>Doctor Email</th>
+        
+      </tr>
+      </thead>    
+      <tbody>
+        <form method="POST">
+       {% for doctor in context %}  
+
+              <tr>  
+                <td>
+                <div class="radio">             
+                <label><input type="radio" name="doctorChoice" value="{{ doctor.dID }}"> {{doctor.dID}}</label>
+                </div>  
+                </td>
+                  <td>{{doctor.dName}}</td>
+                  <td>{{doctor.dTele}}</td>
+                  <td>{{doctor.dEmail}}</td>
+                 
+              </tr>
+          {% endfor %}
+          <input class="btn btn-default btn-danger" name="delete" type="submit" value="Delete Doctor Record" formaction="/deleteDoctor"/>
+          <input class="btn btn-default btn-primary" name="delete" type="submit" value="Edit Doctor Record" formaction="/editDoctor"/>
+         
+        </form>
+      </tbody>
+  </table>
+</div>
+</div>
+{% endif %}
+{% endblock %}
+{% block content %}
+{% endblock %}
