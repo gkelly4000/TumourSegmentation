@@ -2,7 +2,7 @@ Brain Tumour Segmentation Application
 
 
 
-<<WEB APPLICATION>>
+WEB APPLICATION
     To install required libraries:
         pip3 install -r requirements.txt
 
@@ -21,7 +21,7 @@ Brain Tumour Segmentation Application
         The full dataset can be downloaded from:
             https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1
 
-<<DOCKER>>
+DOCKER
     To pull and run docker image from dockerhub:
         docker run grskelly/tumour-segmentation-application
         Go to: http://172.17.0.2:5000
