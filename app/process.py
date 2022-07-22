@@ -22,17 +22,18 @@ def normalise(image):
     return scaledImage
 
 
-def processMultiSequence(files):
+def processMultiSequence(files, testing=False):
     """_summary_ Processes and normalises a set of mri images for one particular case
 
     Args:
         files (List):List of directories containing the images
+        testing (boolean): Testing flag to tell function to remove images that are uploaded during unit tests
 
     Returns:
         np.array: Numpy array of the four MR sequences
     """
-    # if len(files) != 4:
-    #     return False
+    if len(files) != 4:
+        return False
 
     
     for i in range(len(files)):
@@ -44,6 +45,7 @@ def processMultiSequence(files):
             t1Image = nib.load(files[i]).get_fdata()
         elif "t2" in files[i].lower():
             t2Image = nib.load(files[i]).get_fdata()
+   
 
     scaledFlair = normalise(flairImage)
     scaledT1ce = normalise(t1ceImage)
