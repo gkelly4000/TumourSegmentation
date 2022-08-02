@@ -68,6 +68,7 @@ def crop(image):
     height = image.shape[0]
     width = image.shape[1]
     depth = image.shape[2]
+    print(depth)
 
     hStart = int((height - 128) / 2)
     hEnd = int((height - (height - 128) / 2))
@@ -79,6 +80,7 @@ def crop(image):
     dEnd = int((depth - (depth - 128) / 2))
     
     image = image[hStart:hEnd, wStart:wEnd, dStart:dEnd]
+    print(f"dstart={dStart}, dEnd={dEnd}")
     return image
 
 def makePrediction(image, model):

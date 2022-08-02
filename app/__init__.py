@@ -13,7 +13,7 @@ from keras.models import load_model
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config['SECRET_KEY'] = "MYSECRETKEY"
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///mri.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db.db"
 
 app.debug = True
 
